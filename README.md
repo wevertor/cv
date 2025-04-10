@@ -48,11 +48,11 @@ This command installs:
 To compile the CV into a PDF:
 
 ```bash
-pdflatex your-cv-file.tex
+pdflatex main.tex
 ```
 
 or
 
 ```bash
-latexmk -pdf your-cv-file.tex
+latexmk -pdf main.tex
 ```
