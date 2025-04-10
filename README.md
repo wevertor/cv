@@ -45,6 +45,13 @@ This command installs:
 
 ## Usage
 
+Clone the repo:
+
+```bash
+git clone git@github.com:wevertor/cv.git
+cd cv/
+```
+
 To compile the CV into a PDF:
 
 ```bash
