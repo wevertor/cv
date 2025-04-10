@@ -1,0 +1,376 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Weverton Lucas Santos Trindade} \\ \vspace{3pt}
+    \small
+    %\faMobile \hspace{.5pt} \href{tel:***}{+55 (98) ****-****}
+    % $|$
+    \faAt \hspace{.5pt} \href{mailto:weverton2trindade@gmail.com}{weverton2trindade@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/wevertor}{wevertor}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/wevertor}{wevertor}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://wevertor.github.io}{wevertor.github.io}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/S%C3%A3o+Paulo,+SP/@-23.6824124,-46.5952992,10z}{São Paulo, Brasil}
+\end{center}
+
+
+%----------- EXECUTIVE SUMMARY -----------
+\section{Resumo}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{Possuo +4 anos de experiência em desenvolvimento de sistemas back-end com foco no ecossistema java. Possuo bacharelado em Ciência da Computação pela UFMA com habilidades de comunicação em inglês e francês 
+    para colaboração em projetos internacionais. Meu objetivo é unir técnica e criatividade para resolver 
+    problemas complexos, sempre buscando otimizar performance e entregar valor tangível.}}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Habilidades}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Linguagens:}{ Java, Python, Go, JavaScript, TypeScript, SQL} \\ \vspace{3pt}
+        
+        \textbf{Tecnologias:}{ Spring Boot, PostgreSQL, Redis, Git, SVN, Docker, AWS, Kubernetes, Kafka, OpenCV, TensorFlow} \\ \vspace{3pt}
+        
+        \textbf{Metodologias:}{ Agile, Scrum, OOP, DevOps, CI/CD, DDD, Arquitetura Hexagonal} \\ \vspace{3pt}
+        
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experiência}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Pulse}{São Luís, Brasil}
+      {Desenvolvedor de Software Pleno}{Abril 2025 \textbf{--} Presente}
+        \resumeItemListStart
+            \resumeItem{Agendei microsserviços com Spring Cloud Task para automatizar processos da empresa que seriam onerosos para serem realizados em tempo de requisição, garantindo a disponibilidade do sistema e uma melhoria na experiência do usuário. }
+            %\resumeItem{Designed a Qt-based chat application utilizing TCP for real-time communication within a client-server architecture, demonstrating expertise in socket programming, data serialization, and message routing.}
+            %\resumeItem{Crafted message types in IDL and designed a data-centric publish-subscribe architecture based on a flyweight design pattern to implement OpenDDS for a radar system's command and control interface. Utilized QoS policies to facilitate the transmission of both volatile and persistent data across different topics.}
+            %\resumeItem{Implemented a fully asynchronous AMQP-based C++ client with a layered architecture for RabbitMQ message broker to ensure seamless message handling among multiple topics.}
+            %\resumeItem{Developed a cross-platform asynchronous program to refine UAV detection for a GIS application. Benchmarked point-in-polygon algorithms with a GeoJSON polygon database concurrently fetched from MongoDB.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Pulse}{São Luís, Brasil}
+      {Desenvolvedor de Software Júnior}{Dezembro 2022 \textbf{--} Março 2025}
+        \resumeItemListStart
+            \resumeItem{Projetei e implementei serviços backend escaláveis para validação de credenciais utilizando Server-Sent Events (SSE) e criptografia assimétrica, com o uso de Spring Boot e Spring Security. Incorporei testes automatizados e pipelines de CI/CD para garantir processos de deploy robustos e eficientes e monitorei a saúde da aplicação utilizando ferramentas como ArgoCD e Datadog.}
+            \resumeItem{Desenvolvi APIs RESTful e implementei soluções não bloqueantes utilizando Spring WebFlux, otimizando a utilização de recursos e reduzindo custos operacionais. Realizei deploy com pipelines de CI/CD integrados a uma arquitetura Kubernetes.}
+            \resumeItem{Integrei tópicos Apache Kafka em sistemas de notificações push e analytics. Essa implementação forneceu relatórios de uso das aplicações em tempo real, melhorando a tomada de decisão para os gestores da empresa.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Assembleia Legislativa do Maranhão (Lampp-it Solutions)}{São Luís, Brasil}
+      {Desenvolvedor Web}{Março 2022 \textbf{--} Novembro 2022}
+        \resumeItemListStart
+            \resumeItem{Desenvolvi e mantive um sistema escalável de gerenciamento de documentos utilizando React e Spring Boot com bancos de dados com PostgreSQL. Este sistema é utilizado para recuperação rápida de arquivos na Assembleia Legislativa do Maranhão por centenas de funcionários, permitindo um acesso mais rápido a documentos importantes para tomada de decisão pelas lideranças do órgão.}
+            \resumeItem{Projetei e implementei um portal da transparência governamental com interface amigável, utilizando JSF, JPA. Este portal permite acompanhar as receitas e despesas da Assembleia Legislativa do Maranhão pelos contribuintes.}
+            \resumeItem{Dei manutenção a sistemas variados para gerenciamento em setores da Assembleia Legislativa do Maranhão.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {NCA - Núcleo de Computação Aplicada}{São Luís, Brasil}
+      {Pesquisador}{Setembro 2020 \textbf{--} Março 2022}
+        \resumeItemListStart
+            \resumeItem{Desenvolvi um algoritmo de aprendizado de máquina utilizando metodologias ágeis para classificar imagens de retinografia e diagnosticar glaucoma por meio da análise de características das imagens. O método inovador alcançou uma taxa de 90\% de precisão na detecção correta de glaucoma. }
+            \resumeItem{Este trabalho resultou em um artigo apresentado em um congresso de machine learning e computação visual em Calcutá, Índia.}
+        \resumeItemListEnd
+    
+    % \resumeSubheading
+      % {Nanonetworking Research Group, Boğaziçi University}{Istanbul, Turkey}
+      % {Undergraduate Researcher}{Oct 2021 \textbf{--} Jun 2022, Part-time}
+        % \resumeItemListStart
+            % \resumeItem{Worked on the “Design and Implementation of Molecular Communication Systems Using Index Modulation” project under the supervision of \href{https://www.linkedin.com/in/alipusane/}{\color{blue}Prof. Dr. Ali Emre Pusane}.}
+            % \resumeItem{Simulated the Brownian motion of molecules in a SISO MCvD system and predicted simulation parameters such as receiver radius, diffusion coefficient, and transmitter-receiver distance using CNNs with Keras and TensorFlow.}
+            % \resumeItem{Plotted the arrival of molecules per symbol duration in a SISO MCvD system using Binomial, Poisson, and Gaussian model approximations with MATLAB.}
+            % \resumeItem{Ran Monte Carlo simulations of the Gaussian model to encode and decode randomized binary sequences in a SISO MCvD system using BCSK modulation technique and calculated the bit error rate on Z-channel.}
+        % \resumeItemListEnd
+
+    % \vspace{20pt}
+    % \resumeSubheading
+    %   {SESTEK Speech Enabled Software Technologies}{Istanbul, Turkey}
+    %   {AI Research and Development Intern}{Jan 2022 \textbf{--} Feb 2022, Internship}
+    %     \resumeItemListStart
+    %         % \resumeItem{Executed diverse NLP tasks, including NER, POS tagging, sentiment analysis, text classification, and extractive and generative QA using transformers and Hugging Face libraries. Conducted a thorough literature review on information retrieval and reading comprehension to stay updated on SOTA ML models.}
+    %         \resumeItem{Developed a generative QA system with dense passage retrieval (DPR) and retrieval-augmented generation (RAG) techniques using the Haystack framework and PyTorch.}
+    %         \resumeItem{Worked on a Turkish open-domain QA system made by fine-tuning BERTurk and XLM-Roberta models. Tabularized exact match and F1 scores derived from DeepMind's XQuAD and various Turkish data sets.}
+    %     \resumeItemListEnd
+
+    % \resumeSubheading
+      % {Meteksan Defense Industry Inc.}{Ankara, Turkey}
+      % {Analog Design Engineering Intern}{Jul 2021 \textbf{--} Aug 2021, Internship}
+        % \resumeItemListStart
+            % \resumeItem{Designed and simulated numerous analog circuits such as voltage-mode controlled buck converter, phase-shifted full-bridge isolated DC-DC converter, and EMI filters with LTspice. Integrated these circuits and implemented a 320 W power distribution unit to be used in a radar system's power circuit board.}
+            % \resumeItem{Researched real-world compatible electronic components to be used in such circuits including GaNFETs, high-side gate drivers, and Schottky diodes.}
+            % \resumeItem{Assembled PCBs of both common and differential mode filters and used VNA Bode 100 to measure the cut-off frequencies.}
+        % \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%----------- EDUCATION -----------
+
+\section{Educação}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Universidade Federal do Maranhão
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{São Luís, Brasil}
+      {Bacharelado em Ciência da Computação   }{2017 \textbf{--} 2024}
+      {}{}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+% \section{Awards \& Achievements}
+%   \vspace{2pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%         \textbf{High Honors Degree:}{ Awarded to Bachelor alumni who have graduated with a GPA greater than or equal to 3.50 by Boğaziçi University. (Jul 2023)} \\ \vspace{3pt}
+
+%         \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK). (Dec 2021 \textbf{--} Jun 2022)} \\ \vspace{3pt}
+    
+%         % \textbf{National University Admission Exam (YKS):}{ Ranked $75^{th}$ in Mathematics and Science among ca. 2.3 million candidates with a test score of 489.92/500. (Jul 2018)} \\ \vspace{3pt}
+        
+%         \textbf{KYK Outstanding Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Higher Education Credit and Hostels Institution (KYK). (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}
+        
+%         % \textbf{Boğaziçi University Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Boğaziçi University. (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}
+        
+%         \textbf{Kocaeli Science High School Valedictorian Award:}{ Graduated as the highest ranked student. (Jun 2018)}
+%     }}
+%   \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+% \section{Projects}
+%     \vspace{3pt}
+%     \resumeSubHeadingListStart
+      
+%       \resumeProjectHeading
+%         {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
+%           \resumeItemListStart
+%             \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch and recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle.}
+%           \resumeItemListEnd
+      
+%       \resumeProjectHeading
+%         {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
+%           \resumeItemListStart
+%             \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move. Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
+%           \resumeItemListEnd
+      
+%       \resumeProjectHeading
+%         {\textbf{DS\&A Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
+%           \resumeItemListStart
+%             \resumeItem{Five Java projects that apply DS\&A concepts such as discrete-event simulation using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree, Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
+%           \resumeItemListEnd
+      
+%     \resumeSubHeadingListEnd
+
+
+
+%----------- RELEVANT COURSEWORK -----------
+
+% \section{Relevant Coursework}
+  % \vspace{2pt}
+  % \resumeSubHeadingListStart
+    % \small{\item{
+        % \textbf{Major coursework:}{ Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering, Pattern Recognition, Introduction to Digital Signal Processing, Introduction to Digital Communications, Introduction to Database Systems, Introduction to Image Processing, Machine Vision} \\ \vspace{3pt}
+        
+        % \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Fundamentals of Software Engineering}
+    % }}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- ORGANIZATIONS -----------
+
+% \section{Organizations}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Basketball, Swimming, Fitness, Eight-ball, Horology}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \vspace{2pt}
+  % \resumeSubHeadingListStart
+    % \item{References available upon request.}
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
